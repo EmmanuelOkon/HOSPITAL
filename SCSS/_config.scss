@@ -21,6 +21,11 @@ html {
 
 section {
   padding: 2rem 9%;
+
+  &:nth-child(even) {
+    background: $light-gray;
+    // background: red;
+  }
 }
 
 .btn {
