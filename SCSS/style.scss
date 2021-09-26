@@ -1,6 +1,8 @@
 @import 'config';
 @import 'utilities';
-
+@import 'blogs';
+@import 'footer';
+@import 'client';
 
 .header {
   padding: 2rem 9%;
@@ -45,5 +47,41 @@
   }
 }
 
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+
+  & .image {
+    flex: 1 1 45rem;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  & .content {
+    flex: 1 1 45rem;
+
+    & h3 {
+      font-size: 4.5rem;
+      color: $black;
+      line-height: 1.8;
+      text-shadow: $text-shadow;
+    }
+
+    & p {
+      font-size: 1.7rem;
+      color: $light-color;
+      line-height: 1.8;
+      padding: 1rem 0;
+    }
+  }
+}
+
+
 
 @import 'responsive';
+
