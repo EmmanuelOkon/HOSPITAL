@@ -1,6 +1,7 @@
 @import 'config';
 @import 'utilities';
 
+
 .header {
   padding: 2rem 9%;
   position: fixed;
@@ -40,8 +41,9 @@
     color: $green;
     padding: 1rem 1.5rem;
     cursor: pointer;
-    // display: none;
+    display: none;
   }
 }
 
 
+@import 'responsive';
