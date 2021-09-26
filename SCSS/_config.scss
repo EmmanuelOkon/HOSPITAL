@@ -24,7 +24,6 @@ section {
 
   &:nth-child(even) {
     background: $light-gray;
-    // background: red;
   }
 }
 
@@ -58,5 +57,20 @@ section {
     background: $green;
     color: $white;
     margin-left: 0.5rem;
+  }
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+  text-shadow: $text-shadow;
+  text-transform: uppercase;
+  color: $black;
+  font-size: 5rem;
+  letter-spacing: 0.4rem;
+
+  & span {
+    text-transform: uppercase;
+    color: $green;
   }
 }
