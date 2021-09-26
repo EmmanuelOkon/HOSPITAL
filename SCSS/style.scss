@@ -81,7 +81,7 @@
   }
 }
 
-.icons-container{
+.icons-container {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -91,13 +91,28 @@
   & .icons {
     border: $border;
     box-shadow: $box-shadow;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     text-align: center;
     padding: 2.5rem;
+
+    & i {
+      font-size: 4.5rem;
+      color: $green;
+      padding-bottom: 0.7rem;
+    }
+
+    & h3 {
+      font-size: 4.5rem;
+      color: $black;
+      padding: 0.5rem 0;
+      text-shadow: $text-shadow;
+    }
+
+    & p {
+      font-size: 1.7rem;
+      color: $light-color;
+    }
   }
 }
 
-
-
 @import 'responsive';
-
