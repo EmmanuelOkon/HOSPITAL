@@ -60,10 +60,14 @@ section {
   }
 }
 
+.head {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
 .heading {
   text-align: center;
   padding-bottom: 2rem;
-  text-shadow: $text-shadow;
   text-transform: uppercase;
   color: $black;
   font-size: 5rem;

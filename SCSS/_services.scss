@@ -1,32 +1,37 @@
-.services .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  gap: 2rem;
+.services{
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 
-  & .box {
-    background: $white;
-    border-radius: 0.5rem;
-    box-shadow: $box-shadow;
-    border: $border;
-    padding: 2.5rem;
-    text-align: center;
-
-    & i {
-      color: $green;
-      font-size: 5rem;
-      padding-bottom: 0.5rem;
-    }
-
-    & h3{
+  & .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+  
+    & .box {
+      background: $white;
+      border-radius: 0.5rem;
+      box-shadow: $box-shadow;
+      border: $border;
+      padding: 2.5rem;
+      text-align: center;
+  
+      & i {
+        color: $green;
+        font-size: 5rem;
+        padding-bottom: 0.5rem;
+      }
+  
+      & h3 {
         color: $black;
         font-size: 2.5rem;
-        padding:1rem 0;
-    }
-
-    & p{
+        padding: 1rem 0;
+      }
+  
+      & p {
         color: $light-color;
         font-size: 1.4rem;
         line-height: 2;
+      }
     }
   }
-}
+} 
