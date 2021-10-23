@@ -1,0 +1,14 @@
+.doctors .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+
+    & .box{
+        text-align: center;
+        background: $white;
+        border-radius: .5rem;
+        border: $border;
+        box-shadow: $box-shadow;
+        padding:2rem;
+    }
+}
