@@ -1,7 +1,7 @@
 let booking = document.querySelector('#booking');
 
 document.getElementById('booking').innerHTML += `
-            <div class="image">
+            <div class="bookImage">
                 <img src="./Assets/book-img.svg" alt="book-img">
             </div>
           
@@ -14,3 +14,5 @@ document.getElementById('booking').innerHTML += `
                 <input type="submit" value="book now" class="btn">
             </form>
 `;
+
+

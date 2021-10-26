@@ -1,0 +1,47 @@
+.book {
+  & #booking {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    & .bookImage {
+      flex: 1 1 45rem;
+
+      & img {
+        width: 100%;
+      }
+    }
+
+    & form {
+      flex: 1 1 45rem;
+      background: $white;
+      border: $border;
+      box-shadow: $box-shadow;
+      text-align: center;
+      padding: 2rem;
+      border-radius: 0.5rem;
+
+      & h3 {
+        color: $black;
+        padding-bottom: 1rem;
+        font-size: 3rem;
+      }
+
+      & .box {
+        width: 100%;
+        margin: 0.7rem 0;
+        border-radius: 0.5rem;
+        border: $border;
+        font-size: 1.6rem;
+        color: $black;
+        text-transform: capitalize;
+        padding: 1rem;
+      }
+
+      & .btn {
+        padding: 1rem 4rem;
+      }
+    }
+  }
+}
