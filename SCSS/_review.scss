@@ -1,4 +1,7 @@
 .review {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  
   & .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
